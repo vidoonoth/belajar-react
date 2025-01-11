@@ -1,0 +1,77 @@
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .status {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .card-square {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);  /* 3 kolom dengan lebar 80px */
+    margin-bottom: 30px;
+  }
+  
+  .square {
+    width: 80px;
+    height: 80px;  
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .square:hover {
+    background-color: #f44336;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  .square.x {
+    color: #4caf50;
+  }
+  
+  .square.o {
+    color: #2196f3;
+  }
+  
+  .reset-btn {
+    width: 220px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+  
+  .reset-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .reset-btn:focus {
+    outline: none;
+  }
+  
+  .reset-btn:active {
+    background-color: #004085;
+  }
